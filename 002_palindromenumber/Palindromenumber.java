@@ -6,7 +6,7 @@ public class Palindromenumber {
         char[] array = String.valueOf(x).toCharArray();
         /*char是基本类型，代表一个UTF-16编码单元（eg，英文字母数字常用符号常用汉字都能被单个char表示）*/
         /*char[] array 这个array是由自己取名的，这一行内容表示声明由char[]组成的一堆数组*/
-        /*把整数x转化为字符串，这是String的静态方法*/
+        /*valueOf（x）把整数x转化为字符串，这是String的静态方法*/
         /*toCharArray把字符串转成字符数组，eg12321——‘1’‘2’...依次展开*/
 
         int left = 0, right = array.length - 1;
